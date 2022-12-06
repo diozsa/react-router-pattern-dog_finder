@@ -1,0 +1,23 @@
+.NavBar {
+  background-color: rgb(107, 173, 248);
+  text-align: center;
+  font-weight: bold;
+}
+
+.NavBar a {
+  padding: 0.5em 0;
+  width: 10em;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.NavBar a:hover {
+  background-color: rgb(190, 197, 233);
+  color: white !important;
+}
+
+.NavBar a.active {
+  font-weight: bold;
+  color: black;
+}
